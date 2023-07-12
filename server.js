@@ -9,12 +9,12 @@
 
 var HTTP_PORT = process.env.PORT || 8080;
 var express = require("express");
-const bodyParser = require('body-parser');
+
 var app = express();
 const path = require("path");
 const collegeData = require("./modules/collegeData");
 
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"))
 
 collegeData
