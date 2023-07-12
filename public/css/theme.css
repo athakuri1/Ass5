@@ -27,6 +27,18 @@ body {
 .nav-link:hover {
   color: #2f3837 !important;
 }
+
+.btn-primary {
+  background-color: #16385c; 
+  text-shadow: 1px 1px 1px rgba(20, 20, 20, 0.2); 
+  box-shadow: 0 2px 4px rgba(27, 26, 26, 0.1); 
+}
+
+.btn-primary:hover {
+  background-color: #579ae2; 
+}
+
+
 a {
   color: #4e3939; 
 }
