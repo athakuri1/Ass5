@@ -27,12 +27,6 @@ body {
 .nav-link:hover {
   color: #2f3837 !important;
 }
-kk
-
-table tr:nth-child(odd) td {
-  background-color: #ffffff; 
-}
-
 a {
   color: #4e3939; 
 }
@@ -40,6 +34,12 @@ a {
 a:hover {
   color: #d9efad; 
 }
+
+
+table tr:nth-child(odd) td {
+  background-color: #f0f0f0; 
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Fasthand', cursive;
